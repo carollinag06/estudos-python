@@ -1,4 +1,5 @@
-n1=int(input('digite a primeira nota: '))
-n2=int(input('digite a segunda nota: '))
+pessoa = {"nome": "Ana", "idade": 22, "cidade": "Curitiba"}
+pessoa["profissao"] = "Designer"  # Adiciona nova chave
 
-print('a media desse aluno é de {}' .format((n1+n2)/2))
+for chave, valor in pessoa.items():
+    print(f"{chave}: {valor}")
