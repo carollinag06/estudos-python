@@ -12,4 +12,7 @@ elif 18.5 <= peso/(altura * altura) <= 24:
 elif 25 <= peso/(altura*altura) <= 30:
     print('Você está com sobrepeso!')
 
-print(f'Seu IMC é de: {peso/(altura*altura) :.2f}')
+else:
+    print('Você está com obesidade')
+
+print(f'Seu IMC é de: {peso/(altura*altura) :.1f}')

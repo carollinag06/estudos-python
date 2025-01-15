@@ -3,7 +3,6 @@ n2=int(input('Digite o 2º valor: '))
 
 maior=n1
 
-
 if n2 > n1:
     maior=n2
 elif n1 == n2:
